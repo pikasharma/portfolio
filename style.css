@@ -1,0 +1,119 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+/* Navigation */
+header {
+  padding: 20px 40px;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #6c63ff;
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+/* Hero section */
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #aaaaaa;
+  margin-bottom: 30px;
+}
+
+.hero a {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #6c63ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.hero a:hover {
+  background-color: #574fd6;
+}
+
+/* About & Projects sections */
+section h1 {
+  font-size: 36px;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+section p {
+  font-size: 18px;
+  color: #aaaaaa;
+  margin-bottom: 16px;
+}
+
+/* Project cards */
+.project-card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 20px;
+  transition: border-color 0.2s;
+}
+
+.project-card:hover {
+  border-color: #6c63ff;
+}
+
+.project-card h2 {
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 16px;
+  color: #aaaaaa;
+  margin-bottom: 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid #333;
+  color: #555;
+  font-size: 14px;
+}
